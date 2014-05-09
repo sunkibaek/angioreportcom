@@ -5,12 +5,16 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 $font-family-sans-serif: 'Roboto', sans-serif;
 
 // bower:scss
-@import '../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+@import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
 
 /* Space out content a bit */
 body {
     padding-bottom: 20px;
+}
+
+h2 {
+    line-height: 1.6;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
